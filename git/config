@@ -1,0 +1,14 @@
+[user]
+    email = hacktk3@gmail.com
+    name = hacktk
+[color]
+    ui = auto
+[core]
+    editor = vim
+    ignorecase = false
+    quotepath = false
+[diff]
+    compactionHeuristic = true
+
+[includeIf "gitdir:~/repo/org/"]
+    path = ~/.config/git/config-org
